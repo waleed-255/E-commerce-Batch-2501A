@@ -1,0 +1,74 @@
+import React from "react";
+
+function Chefs()
+{
+    return(
+        <>
+        {/* <!-- CHEFS --> */}
+      <section id="chefs">
+         <div className="container">
+            <div className="text-center mb-5">
+               <span className="slbl">The Culinary Team</span>
+               <h2 className="stitle">Meet Our Expert <span>Chefs</span></h2>
+               <div className="sline"></div>
+            </div>
+            <div className="row g-4">
+               <div className="col-sm-6 col-lg-3">
+                  <div className="chcard">
+                     <div className="chimg">
+                        <img src="img/chefs/1.jpg" alt=""/>
+                        <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
+                     </div>
+                     <div className="chbody">
+                        <div className="chnm">Alice Mortal</div>
+                        <div className="chrole">Head Chef</div>
+                        <div className="chexp">12 years experience</div>
+                     </div>
+                  </div>
+               </div>
+               <div className="col-sm-6 col-lg-3">
+                  <div className="chcard">
+                     <div className="chimg">
+                        <img src="img/chefs/2.jpg" alt=""/>
+                        <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
+                     </div>
+                     <div className="chbody">
+                        <div className="chnm">Michael Corn</div>
+                        <div className="chrole">Grill Master</div>
+                        <div className="chexp">8 years experience</div>
+                     </div>
+                  </div>
+               </div>
+               <div className="col-sm-6 col-lg-3">
+                  <div className="chcard">
+                     <div className="chimg">
+                        <img src="img/chefs/3.jpg" alt=""/>
+                        <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
+                     </div>
+                     <div className="chbody">
+                        <div className="chnm">Faz Chowdel</div>
+                        <div className="chrole">Pastry Chef</div>
+                        <div className="chexp">10 years experience</div>
+                     </div>
+                  </div>
+               </div>
+               <div className="col-sm-6 col-lg-3">
+                  <div className="chcard">
+                     <div className="chimg">
+                        <img src="img/chefs/4.jpg" alt=""/>
+                        <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
+                     </div>
+                     <div className="chbody">
+                        <div className="chnm">William Latnum</div>
+                        <div className="chrole">Pizza Artisan</div>
+                        <div className="chexp">9 years experience</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+        </>
+    )
+}
+export default Chefs;
